@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Z-0732 Storm Smash.sln"
+    "dotnet.defaultSolution": "Z-0732_StormSmash.sln"
 }
