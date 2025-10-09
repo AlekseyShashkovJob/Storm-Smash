@@ -6,9 +6,7 @@ using System.Linq;
 using AppsFlyerSDK;
 using Firebase.Messaging;
 using JetBrains.Annotations;
-#if UNITY_IOS && !UNITY_EDITOR
 using Unity.Advertisement.IosSupport;
-#endif
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
@@ -136,13 +134,11 @@ public class Loader : MonoBehaviour, IAppsFlyerConversionData
             networkInfoScreenObject.SetActive(true);
             yield break;
         }
-#if UNITY_IOS && !UNITY_EDITOR
         if (ATTrackingStatusBinding.GetAuthorizationTrackingStatus() ==
             ATTrackingStatusBinding.AuthorizationTrackingStatus.NOT_DETERMINED)
         {
             ATTrackingStatusBinding.RequestAuthorizationTracking();
         }
-#endif
         if (_launchMode is LaunchMode.None)
         {
             yield return LoadAndVerifyAppsFlyer();

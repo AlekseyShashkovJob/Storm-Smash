@@ -71,6 +71,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Firebase native libs
-Assets/Firebase/Plugins/x86_64/*.so
-Assets/Firebase/Plugins/x86_64/*.bundle
+# Firebase Android native libs (not used on iOS)
+Assets/Firebase/Plugins/x86/*
+Assets/Firebase/Plugins/x86_64/*
