@@ -5,10 +5,10 @@ using UnityEngine;
 public class RectTransformOffsetsSwitcher : MonoBehaviour
 {
     [Header("Portrait: Left, Right, Top, Bottom")]
-    public Vector4 portraitOffsets = new Vector4(174.0243f, 174.0243f, 367.3848f, 367.3848f);
+    public Vector4 portraitOffsets = new Vector4(171.9f, 171.9f, 371.915f, 371.915f);
 
     [Header("Landscape: Left, Right, Top, Bottom")]
-    public Vector4 landscapeOffsets = new Vector4(367.3848f, 367.3848f, 174.0243f, 174.0243f);
+    public Vector4 landscapeOffsets = new Vector4(371.915f, 371.915f, 171.9f, 171.9f);
 
     private RectTransform _rectTransform;
     private Vector2 _lastScreenSize;

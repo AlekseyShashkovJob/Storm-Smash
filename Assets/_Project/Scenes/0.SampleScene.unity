@@ -483,7 +483,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -348.04865, y: -734.7696}
+  m_SizeDelta: {x: -343.8, y: -743.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1197377301
 MonoBehaviour:
@@ -497,8 +497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98003b8b474eb94d9d3814dd1a792cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portraitOffsets: {x: 174.0243, y: 174.0243, z: 367.3848, w: 367.3848}
-  landscapeOffsets: {x: 367.3848, y: 367.3848, z: 174.0243, w: 174.0243}
+  portraitOffsets: {x: 171.9, y: 171.9, z: 371.915, w: 371.915}
+  landscapeOffsets: {x: 371.915, y: 371.915, z: 171.9, w: 171.9}
 --- !u!114 &1197377302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,8 +686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98003b8b474eb94d9d3814dd1a792cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portraitOffsets: {x: 174.0243, y: 174.0243, z: 367.3848, w: 367.3848}
-  landscapeOffsets: {x: 367.3848, y: 367.3848, z: 174.0243, w: 174.0243}
+  portraitOffsets: {x: 171.9, y: 171.9, z: 371.915, w: 371.915}
+  landscapeOffsets: {x: 371.915, y: 371.915, z: 171.9, w: 171.9}
 --- !u!114 &1924914106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,7 +753,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -348.04858, y: -734.76953}
+  m_SizeDelta: {x: -343.8, y: -743.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2008012370
 MonoBehaviour:
@@ -767,8 +767,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98003b8b474eb94d9d3814dd1a792cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portraitOffsets: {x: 174.0243, y: 174.0243, z: 367.3848, w: 367.3848}
-  landscapeOffsets: {x: 367.3848, y: 367.3848, z: 174.0243, w: 174.0243}
+  portraitOffsets: {x: 171.9, y: 171.9, z: 371.915, w: 371.915}
+  landscapeOffsets: {x: 371.915, y: 371.915, z: 171.9, w: 171.9}
 --- !u!1 &192374590713495220
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,7 +820,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -348.04865, y: -734.7696}
+  m_SizeDelta: {x: -343.8, y: -743.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1082155658748301320
 Transform:
@@ -991,7 +991,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2517574440744404204}
         m_TargetAssemblyTypeName: Loader, Assembly-CSharp
         m_MethodName: EnablePush
         m_Mode: 6
@@ -1155,7 +1155,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2517574440744404204}
         m_TargetAssemblyTypeName: Loader, Assembly-CSharp
         m_MethodName: EnablePush
         m_Mode: 6
@@ -1544,7 +1544,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2517574440744404204}
         m_TargetAssemblyTypeName: Loader, Assembly-CSharp
         m_MethodName: EnablePush
         m_Mode: 6
@@ -1649,7 +1649,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2517574440744404204}
         m_TargetAssemblyTypeName: Loader, Assembly-CSharp
         m_MethodName: EnablePush
         m_Mode: 6
